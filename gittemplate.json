@@ -1,6 +1,6 @@
 {
   "webpack": {
-    "url": "https://github.com/Bottle1206/Express-Vue-SPA.git",
+    "url": "https://github.com/Bottle1206/Snowden-webpack.git",
     "desc": ""
   },
   "webpack-simple": {
@@ -8,7 +8,7 @@
     "desc": ""
   },
   "webpack-multi": {
-    "url": "https://github.com/Bottle1206/Express-Vue-SPA.git",
+    "url": "https://github.com/Bottle1206/Vue-multiPageApp.git",
     "desc": ""
   }
 }

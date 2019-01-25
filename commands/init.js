@@ -26,7 +26,7 @@ module.exports = function(template, projectName) {
           process.exit()
         }
         console.log(chalk.green('-----项目构建成功!-----'));
-        showExtendIfm()
+        showExtendIfm(answers.projectName)
       })
     })
   })
