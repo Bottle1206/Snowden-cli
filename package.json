@@ -1,0 +1,24 @@
+{
+  "name": "snowden-cli",
+  "version": "1.0.0",
+  "description": "自动构建vue项目脚手架",
+  "main": "index.js",
+  "author": "bottle",
+  "bin": {
+    "snowden": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "download-git-repo": "^1.1.0",
+    "format-json": "^1.0.3",
+    "inquirer": "^6.2.1",
+    "ora": "^3.0.0"
+  },
+  "license": "ISC"
+}

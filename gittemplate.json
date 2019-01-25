@@ -1,0 +1,14 @@
+{
+  "webpack": {
+    "url": "https://github.com/Bottle1206/Express-Vue-SPA.git",
+    "desc": ""
+  },
+  "webpack-simple": {
+    "url": "https://github.com/Bottle1206/Express-Vue-SPA.git",
+    "desc": ""
+  },
+  "webpack-multi": {
+    "url": "https://github.com/Bottle1206/Express-Vue-SPA.git",
+    "desc": ""
+  }
+}
