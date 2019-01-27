@@ -24,13 +24,13 @@ program
       require(res('init'))(template, projectName)
     })
  
-// program
-//     .command('list')
-//     .description('List all the templates')
-//     .alias('l')
-//     .action(() => {
-//         require(res('list'))()
-//     })
+program
+    .command('list')
+    .description('List all the templates')
+    .alias('l')
+    .action(() => {
+        require(res('list'))()
+    })
  
 
 program.parse(process.argv)
