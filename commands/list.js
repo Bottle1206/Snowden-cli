@@ -1,3 +1,12 @@
+// const Table = require('cli-table');
+
+// const table = new Table({
+//   head: ['Template Name', 'Description'],
+//   style: {
+//     head: ['green']
+//   }
+// })
+
 module.exports = function() {
   console.log('----------------\n')
   console.log('[webpack]:')

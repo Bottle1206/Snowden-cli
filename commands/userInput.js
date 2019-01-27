@@ -1,6 +1,8 @@
 const { prompt }  = require('inquirer');
+const templateChoices = [ 'webpack', 'webpack-simple', 'webpack-multi'];
 
 module.exports = function(template, projectName) {
+  if (!templateChoices.includes(template) && !projectName) projectName = template;
   const questions = [{
     type: 'input',
     name: 'projectName',
@@ -14,11 +16,7 @@ module.exports = function(template, projectName) {
     type: 'list',
     name: 'template',
     message: '请选择模板',
-    choices: [
-      'webpack',
-      'webpack-simple',
-      'webpack-multi'
-    ],
+    choices: templateChoices,
     default: template || 'webpack'
   }, {
     type: 'input',
