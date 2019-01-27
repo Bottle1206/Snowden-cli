@@ -10,6 +10,9 @@ npm link
 ### 创建项目 ###
 snowden init [template] [projectName]
 
+### 显示项目列表 ###
+snowden list
+
 ### template可选项 ###
 webpack: 包括 vue, vuex, vue-router, vue-resource, element-ui, stylus, eslint
 
