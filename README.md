@@ -1,7 +1,7 @@
 # Snowden-cli
 ## vue自动构建工具，支持webpack，webpack-simple, webpack-multi 三个模板
 
-git clone https://github.com/jrainlau/scion.git
+git clone https://github.com/Bottle1206/Snowden-cli.git
 
 cd Snowden-cli && npm install
 
