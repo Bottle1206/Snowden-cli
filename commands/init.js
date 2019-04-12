@@ -10,7 +10,7 @@ const setPackage = require('./setPackage');
 
 module.exports = function(template, projectName) {
   userInput(template, projectName).then(answers => {
-    const gitPlace = templateLib[template].url;
+    const gitPlace = templateLib[answers.template].url;
     const dist = process.cwd() + '/' + answers.projectName;
 
     const spinner = ora('正在下载模板...').start();
